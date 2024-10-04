@@ -1,30 +1,33 @@
- {                                                                                                                                  
-     "name": "MeuTema",                                                                                                             
-     "comment": "Um tema personalizado para Tilix",                                                                                 
-     "foreground-color": "#c9cacc",                                                                                                 
-     "background-color": "#1d1f21",                                                                                                 
-     "use-theme-colors": false,                                                                                                     
-     "use-highlight-color": false,                                                                                                  
-     "highlight-foreground-color": "#1958a6",                                                                                       
-     "highlight-background-color": "#c9cacc",                                                                                       
-     "use-cursor-color": false,                                                                                                     
-     "cursor-foreground-color": "#ffffff",                                                                                          
-     "cursor-background-color": "#efefef",                                                                                          
-     "use-badge-color": true,                                                                                                       
-     "badge-color": "#8abeb7",                                                                                                      
-     "palette": [                                                                                                                   
-         "#1d1f20",                                                                                                                 
-         "#bd3327",                                                                                                                 
-         "#2bbc8a",                                                                                                                 
-         "#f99157",                                                                                                                 
-         "#1f77b3",                                                                                                                 
-         "#ca99ca",                                                                                                                 
-         "#6f9a9c",                                                                                                                 
-         "#eeeeee",                                                                                                                 
-         "#1d1f20",                                                                                                                 
-         "#bd3327",                                                                                                                 
-         "#2bbc8a",                                                                                                                 
-         "#f99157",                                                                                                                 
-         "#1f77b3",                                                                                                                 
-         "#ca99ca",                                                                                                                 
-                                                                                                                                   
+{
+  "name": "AllTheme",
+  "comment": "Um tema personalizado para Tilix",
+  "foreground-color": "#888888",  // Cor base para o texto
+  "background-color": "#1f1f1f",  // Fundo editor
+  "use-theme-colors": false,
+  "use-highlight-color": false,
+  "highlight-foreground-color": "#EAEAEA",  // Cor de destaque
+  "highlight-background-color": "#212121",  // Cor de fundo de destaque
+  "use-cursor-color": false,
+  "cursor-foreground-color": "#FAFAFA",  // Cor do cursor
+  "cursor-background-color": "#303030",
+  "use-badge-color": true,
+  "badge-color": "#383838",  // Cor dos badges
+  "palette": [
+    "#1f1f1f",  // Preto (claro)
+    "#c24038",  // Vermelho (editorError.foreground)
+    "#2bbc8a",  // Verde (mantido do original)
+    "#f99157",  // Laranja (mantido do original)
+    "#1f77b3",  // Azul (mantido do original)
+    "#ca99ca",  // Roxo (mantido do original)
+    "#6f9a9c",  // Turquesa (mantido do original)
+    "#EEEEEE",  // Cinza (claro)
+    "#1d5556",  // Preto claro (editorIndentGuide.background)
+    "#bd3327",  // Vermelho claro (mantido)
+    "#56b6c2",  // Azul claro (symbolIcon.variableForeground)
+    "#e06c75",  // Vermelho escuro (keyword)
+    "#79b8ff",  // Azul claro (symbolIcon.methodForeground)
+    "#c678dd",  // Roxo claro (number, unit.css)
+    "#98c379",  // Verde claro (function.name, inherited.class)
+    "#FAFAFA"   // Cinza claro
+  ]
+}
